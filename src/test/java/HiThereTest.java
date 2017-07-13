@@ -10,7 +10,7 @@ public class HiThereTest {
     @Test
 
     public void testHiThere() throws Exception {
-        HiThere h = new HiThere("Martin");
-        assertTrue(h.getOutput().equals("Hi There Martin"));
+        HiThere h = new HiThere("Marty");
+        assertTrue(h.getOutput().equals("Hi There Marty"));
     }
 }
